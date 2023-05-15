@@ -1,2 +1,16 @@
 # W.A.N.D.A.-PROJECT
 Este trabalho analisa o W.A.N.D.A. PROJECT, um projeto que usa um microcontrolador e uma bobina de tesla para armazenar e acessar seeds de carteiras bitcoin em situações de emergência.
+
+
+v5.
+Sabe-se da dificuldade de armazenamento de dados de forma segura e discreta para o longo prazo, especialmente no que se refere às carteiras bitcoin (btc) cold wallet para o futuro. As opções mais comuns são a escolha de paper wallets, que apesar de seguras, dependem de uma boa ocultação, pois qualquer pessoa que consiga acesso a elas pode extrair toda a reserva btc dela. Além disso, existem também as carteiras digitais físicas, como a trezor, que possuem um alto custo agregado para a aquisição e que são carteiras as quais se recomenda que sejam protegidas das intempéries do tempo, como água, calor, frio etc.
+
+Diante desse problema, surge o W.A.N.D.A. PROJECT, visando a criação de uma forma de armazenamento de seeds, que são códigos alfanuméricos que permitem recuperar o acesso às carteiras digitais onde os bitcoins são guardados. A sigla significa: Wallet Accessory Not traceable Decentralized Anonymous. O objetivo do projeto é criar uma forma de armazenar e acessar as seeds em situações de emergência, como guerras, desastres naturais ou crises políticas. O W.A.N.D.A. PROJECT pretende ser uma alternativa para a preservação da privacidade e da autonomia financeira dos usuários de Bitcoin em cenários adversos.
+
+Neste trabalho, o autor vai analisar como o W.A.N.D.A. PROJECT funciona e quais são seus benefícios para a comunidade Bitcoin. Para isso, ele vai revisar a literatura sobre o Bitcoin e as criptomoedas; explicar a tecnologia blockchain e o conceito de seed; apresentar o W.A.N.D.A. PROJECT e suas características; compará-lo com outras soluções existentes no mercado; e avaliar os seus potenciais impactos sociais e econômicos.
+
+A hipótese do autor é que o W.A.N.D.A. PROJECT é uma solução viável e eficaz para garantir o acesso e a segurança dos bitcoins em situações de risco ou instabilidade. A tese do autor é que o W.A.N.D.A. PROJECT representa uma evolução do sistema criptográfico e contribui para a democratização e a emancipação financeira dos usuários de Bitcoin.
+
+Em questões físicas trata se de um microcontrolador poderoso com acesso wifi e capaz de suportar um servidor html para acesso local sem que seja necessário se conectar à internet, gerando possibilidade de vazamento de dados. Tal microcontrolador vai ter como fonte de alimentação um sistema parecido com a bobina de tesla, onde se pode transmitir energia de forma simples sem a necessidade de cabos. Um regulador de tensão que comporte fazer a alimentação da bobina e estabilizar o microcontrolador.
+
+No que diz respeito ao software, o projeto consiste em o microcontrolador na primeira vez que for iniciado gerar uma rede sem fio genérica onde ao acessar o ip do dispositivo o usuário configurará uma senha para a sua rede, definirá se ela será aberta ou fechada e inserirá os dados de uma seed existente. O dispositivo também terá uma opção de atualização de firmware que pode servir para melhorias futuras ou para os usuários desenvolverem seu próprio firmware e não dependerem da confiança no desenvolvedor do dispositivo como muitos outros projetos da rede bitcoin.
